@@ -1,0 +1,77 @@
+<!DOCTYPE>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio Professionnel</title>
+  <link rel="stylesheet" href="style.css(portfolio).css" />
+  <link rel="stylesheet" href="java.script(portfolio).js">
+  <!-- Intégration de la bibliothèque AOS pour les animations -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="logo">MonPortfolio</div>
+    <ul class="nav-links">
+      <li><a href="cv2/index.html(cv).html">cv</a></li>
+      <li><a href="index.html(mesprojets).html">mes projets</a></li>
+      <li><a href="pont.jpg">pont</a></li>
+      <li><a href="index.html(aurelien_state).html">description</a></li>
+    </ul>
+    <div class="burger">
+      <div class="line1"></div>
+      <div class="line2"></div>
+      <div class="line3"></div>
+    </div>
+  </nav>
+
+  <header id="accueil" data-aos="fade-down">
+    <h1>Bienvenue sur mon portfolio</h1>
+    <p>Ingénieur en développement logiciel</p>
+  </header>
+
+  <section id="projets" data-aos="fade-up"><h2>Mes Projets</h2>
+      <h3>projets personnels</h3>
+            <p>creation d'un blog,creation d'un site web,developpement d'une application mobile,creation d'un portfolio</p>
+      <h3>projets academiques</h3>
+            <p>creation d'un projet de science,analyse de donnees,recherche sur des sujet d'interet</p>
+      <h3>projets creatif</h3>
+            <p>ecriture d'un recit et poeme,creation d'un court-metrage et conception d'un jeu de societe et de jeu video</p>
+    <!-- Détails des projets -->
+  </section>
+
+  <section id="competences" data-aos="fade-up">
+    <h2>Compétences</h2>
+    <div class="shill-item">
+            <h3>HTML,CSS</h3>
+            <div class="progress-bar">
+                <div class="progress"style="width: 90%;"></div>
+    </div>
+    <!-- Informations de contact -->
+
+  </section>
+  <section id="contact"class="contact">
+    <div class="container">
+        <h2>contact</h2>
+        <form action="aureliennana118@gmail.com"method="POST">
+            <input type="text"name="nana"placeholder="nom"required>
+            <input type="email"name="aureliennana118@gmail.com"placeholder="email"required>
+            <textarea name="bonjour" id="page nana"placeholder="votre message"required></textarea>
+            <section id="contact">
+            <button type="submit">envoyer</button>
+            <footer>
+                <p>&copy;2025nana aurelien</p>
+            </footer>
+        </form>
+    </div>
+</section>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
